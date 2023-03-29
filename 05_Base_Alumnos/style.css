@@ -1,0 +1,21 @@
+table {
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+th, td {
+border: 1px solid black;
+padding: 5px;
+}
+
+button {
+margin-top: 10px;
+}
+
+.formulario-alumno {
+display: none;
+}
+
+.tabla-calificaciones {
+display: none;
+}
