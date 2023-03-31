@@ -96,6 +96,17 @@ button {
     background-color: rgb(228, 125, 78);
     border: solid 6px #ca6a3d;
     border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+button:hover {
+    background-color: #d1cb76;
+    border: solid 6px #706b20;
+    
+}
+button:active {
+    background-color: #a34332;
+    border: solid 6px #58271e;
 }
 
 #tabla-calificaciones {
@@ -108,17 +119,25 @@ display: none;
 #edad {
     margin-left: 47px;
 }
-.group {
+.middle-style {
     width: 45%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px 5px #796b52;
     padding: 30px;
     background-color: #e4d4b6;
+    font-size: 15px;
 }
-.table-alumn {
-    width: 45%;
-    padding: 30px;
-    background-color: #e4d4b6;
+.group {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.group h2 {
+    font-size: 27px;
+    padding: 10px;
+    margin-left: 45px;
 }
 .table-alumn table {
     border: solid 4px #ca6a3d;
-    border-radius: 60px;
 }
